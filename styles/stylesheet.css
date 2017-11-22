@@ -30,6 +30,7 @@ body {
 
 .shoe1 {
   border: solid 1px pink;
+  text-align: center;
   width: 20%;
 }
 
@@ -39,6 +40,12 @@ body {
 
 .black {
   background-color: black;
+}
+
+.color-swatches {
+  display: inline-block;
+  padding: 0;
+  margin: 0;
 }
 
 .color-swatches li {
@@ -52,9 +59,13 @@ body {
 
 h4 {
   clear: both;
-  text-align: center;
 }
 
-p {
-  text-align: center;
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.underline:hover {
+  text-decoration: underline;
 }
