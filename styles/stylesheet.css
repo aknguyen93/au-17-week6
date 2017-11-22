@@ -13,6 +13,7 @@ body {
   display: block;
   width: 100%;
   margin: auto;
+  border-bottom: solid 8px black;
 }
 
 .title-box h1 {
@@ -24,14 +25,20 @@ body {
 }
 
 .module {
-  display: block;
-  border: solid 4px green;
+  display: inline-block;
+  width: 100%;
 }
 
-.shoe1 {
-  border: solid 1px pink;
+img {
+  max-height: 200px;
+  padding: 0 20px 0 20px;
+}
+
+.shoe1, .shoe2, .shoe3, .shoe4, .shoe5, .shoe6, .shoe7, .shoe8, .shoe9, .shoe10 {
   text-align: center;
   width: 20%;
+  float: left;
+  padding-top: 80px;
 }
 
 .red {
@@ -55,10 +62,6 @@ body {
   width: 1.5rem;
   float: left;
   margin: .5em;
-}
-
-h4 {
-  clear: both;
 }
 
 a {
