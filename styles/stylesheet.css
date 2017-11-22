@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+
+.content-wrapper {
+  display: block;
+  width: 80%;
+  margin: auto;
+  background-color: white;
+}
+
+.title-box {
+  display: block;
+  width: 100%;
+  margin: auto;
+}
+
+.title-box h1 {
+  font-family: arial;
+  font-size: 54pt;
+  text-align: center;
+  margin: 0;
+  padding: 2rem;
+}
+
+.module {
+  border: solid 4px green;
+}
